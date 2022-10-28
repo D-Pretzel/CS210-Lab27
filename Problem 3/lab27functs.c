@@ -60,7 +60,7 @@ int readFile(char filename[], EmployeeBD employees[], int numLines){
     //Read the file
     for (int i = 0; i < numLines; i++){
         fscanf(file, "%s %s %s %d", employees[i].firstName, employees[i].lastName, employees[i].birthMonth, &employees[i].birthDate);
-        i++;
+        linesRead++;
     }
 
     //Close the file
