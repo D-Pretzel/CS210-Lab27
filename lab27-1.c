@@ -24,7 +24,7 @@ int main(void) {
 
     decrypt(message, key);
     printf("The decrypted message is: %s\n", message);
-    
+
     return 0;
 }
 
